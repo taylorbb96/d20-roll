@@ -25,24 +25,9 @@ func average_num(n int) float64 {
 func main() {
 	var input_num int
 
-//	a_num := rand.IntN(20)
-//	fmt.Println(a_num)
-//	fmt.Println(float32(a_num))
-//	a_num := rand.IntN(20)
-//	fmt.Println(a_num)
-//	fmt.Println(float32(a_num))
-//	a_num := rand.IntN(20)
-//	fmt.Println(a_num)
-//	fmt.Println(float32(a_num))
-//	a_num := rand.IntN(20)
-//	fmt.Println(a_num)
-//	fmt.Println(float32(a_num))
-
 	fmt.Print("Input number of rolls: ")
-
 	fmt.Scanln(&input_num)
 
 	average := average_num(input_num)
-
 	fmt.Printf("Average result: %f", average)
 }
